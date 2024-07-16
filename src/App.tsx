@@ -2,9 +2,9 @@ import React from "react";
 import { Button } from "./components/ui/button";
 
 const App: React.FC = () => {
-  return <div className="bg-red-500">
+  return <div >
   Yes it's working perfect
-  <Button>
+  <Button variant={"link"}>
     Hi Boy!
   </Button>
   </div>;

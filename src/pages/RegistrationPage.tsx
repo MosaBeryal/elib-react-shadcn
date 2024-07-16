@@ -15,7 +15,7 @@ function RegistrationPage() {
     <section className="flex justify-center items-center min-h-screen">
       <Card className="w-full max-w-sm">
         <CardHeader>
-          <CardTitle className="text-xl">Register Now</CardTitle>
+          <CardTitle className="text-xl">Register Now !</CardTitle>
           <CardDescription>
             Enter your information to create an account
           </CardDescription>

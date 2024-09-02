@@ -10,7 +10,10 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useForm, SubmitHandler } from "react-hook-form";
-import { RegistrationFormInputs, registrationSchema } from "../schemas/authSchema";
+import {
+  RegistrationFormInputs,
+  registrationSchema,
+} from "../schemas/authSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
 
 function RegistrationPage() {
@@ -70,7 +73,9 @@ function RegistrationPage() {
                   {...register("password")}
                 />
                 {errors.password && (
-                  <span className="text-red-600">{errors.password.message}</span>
+                  <span className="text-red-600">
+                    {errors.password.message}
+                  </span>
                 )}
               </div>
               <Button type="submit" className="w-full">
